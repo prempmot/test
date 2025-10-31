@@ -510,22 +510,25 @@
                     </div>
                 </div>
 
-                <!-- Blog Post 2 -->
-                
-            </section>
+               <div class="post-card">
 
-            <!-- Add Post Section -->
-            <section class="add-post-section">
-                <div class="section-title">
-                    <h2>नया लेख जोड़ें</h2>
-                </div>
-                
-                <!-- Password Section -->
-                <div class="password-section">
-                    <h4>पासवर्ड आवश्यक है</h4>
-                    <p>नया लेख जोड़ने के लिए कृपया पासवर्ड दर्ज करें।</p>
-                </div>
-                
+                <!-- Blog Post 1 -->
+    <div class="post-image">
+        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="Blog Post Image" alt="Blog Post Image">
+    </div>
+    <div class="post-content">
+        <div class="post-date">1-11-2025</div>
+        <h3 class="post-title">क्या हनुमान चालीसा हम गलत पढ़ रहे </h3>
+        <p class="post-excerpt">श्रीमान नित्यानंद मिश्र जी इस बार पक्षपात कर रहे हैं, इनकी और श्री रामभद्राचार्य जी की , दोनों का मैं सम्मान करता हूं लेकिन जो सच है वो सच ही है, मिश्रा जी 50-60-80 वर्ष से पुराने की पांडुलिपि की बात न ही कर रहे और न देखना उचित  समझा,तुलसी दास जी ने जितने पहले रचना किया उसकी तुलना में 100 वर्ष भी कुछ भी नहीं,गीताप्रेस जैसी प्रतिष्ठित प्रकाशक जो हनुमान प्रसाद पोद्दार जयदयाल गोयन्दका राधा बाबा जैसे सभी ब्रह्मलीन महापुरुषों के संरक्षण में हो,जिन्हें भगवान का साक्षात्कार था,वह कभी ऐसी मूर्खतापूर्ण त्रुटि नहीं करेंगे,गीता प्रेस ने तो वेदों के प्रमाणिक पांडुलिपि न होने के स्थिति में उसे प्रकाशित ही नहीं किया,तो हनुमान चालीसा में त्रुटि का सवाल ही नहीं हो सकता,बमुश्किल कुछ पांडुलिपि में अलग पाठ होने से वह पाठ तुलसीदास जी का नहीं हो जाता , हा श्री गुरुदेव का या कोई अन्य संत का खुद का रचित चालीसा उसे जरूर कहा जा सकता है जिसको तुलसीदास जी की तरह वह भी शक्तिपात कर सकते हैं, परंतु तुलसीदास कृत मूल पाठ तो वही है जो सर्वदा से था है और रहेगा,देश में कुछ अपवाद को छोड़ हर घर में भी पाठ होती है जो गीताप्रेस द्वारा प्रकाशित मूल पाठ है |</p>
+        <div class="youtube-embed">
+            <iframe src="https://www.youtube.com/embed/xVanv4IpU4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <a href="#" class="read-more">पूरा पढ़ें <i class="fas fa-arrow-right"></i></a>
+        <button class="export-html-btn">
+            <i class="fas fa-code"></i> Export HTML
+        </button>
+    </div>
+</div>
                 <!-- Alert Messages -->
                 <div id="successAlert" class="alert alert-success">
                     लेख सफलतापूर्वक जोड़ दिया गया है!
@@ -535,34 +538,7 @@
                     गलत पासवर्ड! लेख जोड़ने की अनुमति नहीं है।
                 </div>
                 
-                <form id="addPostForm">
-                    <div class="form-group">
-                        <label for="postPassword">पासवर्ड <span class="optional-field">(आवश्यक)</span></label>
-                        <input type="password" id="postPassword" class="form-control" placeholder="पासवर्ड दर्ज करें" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="postTitle">लेख शीर्षक <span class="optional-field">(वैकल्पिक)</span></label>
-                        <input type="text" id="postTitle" class="form-control" placeholder="अपने लेख का शीर्षक दर्ज करें">
-                    </div>
-                    <div class="form-group">
-                        <label for="postDate">तारीख <span class="optional-field">(वैकल्पिक)</span></label>
-                        <input type="text" id="postDate" class="form-control" placeholder="दिन महीना, साल">
-                    </div>
-                    <div class="form-group">
-                        <label for="postImage">छवि URL <span class="optional-field">(वैकल्पिक)</span></label>
-                        <input type="url" id="postImage" class="form-control" placeholder="https://example.com/image.jpg">
-                    </div>
-                    <div class="form-group">
-                        <label for="postExcerpt">लेख सारांश <span class="optional-field">(वैकल्पिक)</span></label>
-                        <textarea id="postExcerpt" class="form-control" placeholder="अपने लेख का संक्षिप्त विवरण दर्ज करें"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="youtubeUrl">YouTube URL <span class="optional-field">(वैकल्पिक)</span></label>
-                        <input type="url" id="youtubeUrl" class="form-control" placeholder="https://youtu.be/VIDEO_ID">
-                    </div>
-                    <button type="submit" class="btn">लेख जोड़ें</button>
-                </form>
+                
             </section>
         </div>
     </div>
